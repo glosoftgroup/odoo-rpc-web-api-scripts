@@ -14,9 +14,8 @@ print(connecting)
 #login in using authenticate function
 uid = common.authenticate(db, username, password, {})
 
-id = models.execute_kw(db, uid, password, 'res.partner', 'create', [{
-    'name': "New Partner",
-}])
+id = models.execute_kw(db, uid, password, 'res.partner', 'create', 
+	[{'name': "New Partner",}])
 print(id)
 '''
 Create records

@@ -17,3 +17,9 @@ url = 'http://localhost:8069' # YOU hostname/ip address
 db = 'mydb15' #enter your database name
 username = 'pkinuthia10@gmail.com' #enter user login
 password = 'password'  #enter user password
+
+Executing script
+=========================
+run this command to execute scripts
+
+$> python ConnectToServer.py
