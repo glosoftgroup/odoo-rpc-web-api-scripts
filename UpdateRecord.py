@@ -1,6 +1,6 @@
 nurl = 'http://localhost:8069'
 db = 'mydb15'
-username = 'pkinuthia10@gmail.com'
+username = 'email@gmail.com'
 password = 'password'
 
 import xmlrpclib
